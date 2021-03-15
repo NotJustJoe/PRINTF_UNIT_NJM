@@ -1,0 +1,256 @@
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 68 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+0x0
+
+1c1
+< 0x0
+---
+> (nil)
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 69 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+0x0 Hi i am
+
+1c1
+< 0x0 Hi i am
+---
+> (nil) Hi i am
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 73 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+aaaaa 0x0 aaaaaaa
+
+1c1
+< aaaaa 0x0 aaaaaaa
+---
+> aaaaa (nil) aaaaaaa
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 74 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+0x0s
+
+1c1
+< 0x0s
+---
+> (nil)s
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 78 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+                                                                                                                                                                  0x0
+
+1c1
+<                                                                                                                                                                   0x0
+---
+>                                                                                                                                                                 (nil)
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 79 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+0x0 0x0
+
+1c1
+< 0x0 0x0
+---
+> (nil) (nil)
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 83 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+0x0 0x13
+
+1c1
+< 0x0 0x13
+---
+> (nil) 0x13
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 87 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+                                                                                        0xffffffed, 0x0
+
+1c1
+<                                                                                         0xffffffed, 0x0
+---
+>                                                                                         0xffffffed, (nil)
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 88 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+0x0, 0x0
+
+1c1
+< 0x0, 0x0
+---
+> (nil), (nil)
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 89 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+            0x0, 0x0
+
+1c1
+<             0x0, 0x0
+---
+>           (nil), (nil)
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 255 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+               %
+
+1c1
+<                %
+---
+> %
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 256 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+                               %
+
+1c1
+<                                %
+---
+> %
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 257 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+                                                       %
+
+1c1
+<                                                        %
+---
+> %
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 258 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+                                                                                                                                                                    %
+
+1c1
+<                                                                                                                                                                     %
+---
+> %
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 264 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+         %, %
+
+1c1
+<          %, %
+---
+> %, %
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 265 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+%,  %
+
+1c1
+< %,  %
+---
+> %, %
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 266 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+     %,  %
+
+1c1
+<      %,  %
+---
+> %, %
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 267 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+        %,    %
+
+1c1
+<         %,    %
+---
+> %, %
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 268 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+%,    %
+
+1c1
+< %,    %
+---
+> %, %
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 269 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+%,    %
+
+1c1
+< %,    %
+---
+> %, %
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 285 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+               % Yo0 0
+
+1c1
+<                % Yo0 0
+---
+> % Yo0 0
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 286 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+                               % I am a really long and really annoying line, do you like what you see ? 
+
+1c1
+<                                % I am a really long and really annoying line, do you like what you see ? 
+---
+> % I am a really long and really annoying line, do you like what you see ? 
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 287 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+                                                       % 2
+
+1c1
+<                                                        % 2
+---
+> % 2
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 288 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+                                                                                                                                                                    %               0              Yo0
+
+1c1
+<                                                                                                                                                                     %               0              Yo0
+---
+> %               0              Yo0
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 291 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+%                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               % 15489                                                                                                                                                                 % I am a really long and really annoying line, do you like what you see ? 
+
+1c1
+< %                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               % 15489                                                                                                                                                                 % I am a really long and really annoying line, do you like what you see ? 
+---
+> % % 15489 % I am a really long and really annoying line, do you like what you see ? 
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 293 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+% 0x0000
+
+1c1
+< % 0x0000
+---
+> % (nil)000
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 294 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+         %, %
+
+1c1
+<          %, %
+---
+> %, %
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 295 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+%              0 0x3c81 Et la il me dit, je ne viens pas, ah non non je ne viens pas, je vais faire gitteur 0,                                   %245
+
+1c1
+< %              0 0x3c81 Et la il me dit, je ne viens pas, ah non non je ne viens pas, je vais faire gitteur 0,                                   %245
+---
+> %              0 0x3c81 Et la il me dit, je ne viens pas, ah non non je ne viens pas, je vais faire gitteur 0, %245
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 296 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+          %              0 0x3c81 Et la il me dit, je ne viens pas, ah non non je ne viens pas, je vais faire gitteur753 0,  %245Et la il me dit, je ne viens pas, ah non non je ne viens pas, je vais faire gitteur
+
+1c1
+<           %              0 0x3c81 Et la il me dit, je ne viens pas, ah non non je ne viens pas, je vais faire gitteur753 0,  %245Et la il me dit, je ne viens pas, ah non non je ne viens pas, je vais faire gitteur
+---
+> %              0 0x3c81 Et la il me dit, je ne viens pas, ah non non je ne viens pas, je vais faire gitteur753 0, %245Et la il me dit, je ne viens pas, ah non non je ne viens pas, je vais faire gitteur
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 297 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+qqq           % qqqq             0753 0x3c81sdfs Et la il me dit, je ne viens pas, ah non non je ne viens pas, je vais faire gitteur%fsdf      0,  %5Yo0
+
+1c1
+< qqq           % qqqq             0753 0x3c81sdfs Et la il me dit, je ne viens pas, ah non non je ne viens pas, je vais faire gitteur%fsdf      0,  %5Yo0
+---
+> qqq% qqqq             0753 0x3c81sdfs Et la il me dit, je ne viens pas, ah non non je ne viens pas, je vais faire gitteur%fsdf      0, %5Yo0
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 298 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+qqq           % qqqq             0753 0x3c81sdfs Et la il me dit, je ne viens pas, ah non non je ne viens pas, je vais faire gitteur%fsdf      0,     %5Yo0I am a really long and really annoying line, do you like what you see ? 
+
+1c1
+< qqq           % qqqq             0753 0x3c81sdfs Et la il me dit, je ne viens pas, ah non non je ne viens pas, je vais faire gitteur%fsdf      0,     %5Yo0I am a really long and really annoying line, do you like what you see ? 
+---
+> qqq% qqqq             0753 0x3c81sdfs Et la il me dit, je ne viens pas, ah non non je ne viens pas, je vais faire gitteur%fsdf      0, %5Yo0I am a really long and really annoying line, do you like what you see ? 
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER 299 : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+zertzert%zert              06216 0x3c81 Et la il me dit, je ne viens pas, ah non non je ne viens pas, je vais faire gitteur+3156                0,  %245 0
+
+1c1
+< zertzert%zert              06216 0x3c81 Et la il me dit, je ne viens pas, ah non non je ne viens pas, je vais faire gitteur+3156                0,  %245 0
+---
+> zertzert%zert              06216 0x3c81 Et la il me dit, je ne viens pas, ah non non je ne viens pas, je vais faire gitteur+3156                0, %245 0
+

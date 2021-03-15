@@ -2,6 +2,8 @@
 
 This is a UNIT Tester for the function ft_print of 42's School project, the features are :
 
+NOTE : Printf Function behave differently for %% , and %p according to the OS you're using it so if you have errors for these special case, be sure to double check.
+
 -Several Level of stress testing for your function.
 
 -Logs of the error, with the number of the test you've failed.

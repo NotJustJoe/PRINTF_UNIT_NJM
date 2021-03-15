@@ -1,0 +1,937 @@
+==18140== Memcheck, a memory error detector
+==18140== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==18140== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==18140== Command: ./out/fake.out
+==18140== 
+==18140== error calling PR_SET_PTRACER, vgdb might block
+==18140== 
+==18140== HEAP SUMMARY:
+==18140==     in use at exit: 386 bytes in 135 blocks
+==18140==   total heap usage: 553 allocs, 418 frees, 11,848 bytes allocated
+==18140== 
+==18140== 2 bytes in 1 blocks are definitely lost in loss record 1 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109512: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 2 bytes in 1 blocks are definitely lost in loss record 2 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10965E: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 2 bytes in 1 blocks are definitely lost in loss record 3 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x1097E5: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 2 bytes in 1 blocks are definitely lost in loss record 4 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109A89: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 2 bytes in 1 blocks are definitely lost in loss record 5 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109D34: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 2 bytes in 1 blocks are definitely lost in loss record 6 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109FDF: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 2 bytes in 1 blocks are definitely lost in loss record 7 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A28A: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 2 bytes in 1 blocks are definitely lost in loss record 8 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A535: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 2 bytes in 1 blocks are definitely lost in loss record 9 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A7E0: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 10 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x1093BA: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 11 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x1093D1: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 12 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x1093E8: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 13 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x1094A6: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 14 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x1094C1: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 15 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x1094DC: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 16 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x1094F7: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 17 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109676: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 18 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10968E: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 19 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x1096A6: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 20 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109775: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 21 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109791: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 22 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x1097AD: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 23 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x1097C9: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 24 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109801: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 25 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10994D: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 26 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109963: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 27 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109979: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 28 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109A25: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 29 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109A3E: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 30 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109A57: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 31 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109A70: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 32 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109AA2: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 33 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109BEE: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 34 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109C04: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 35 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109C1A: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 36 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109CD0: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 37 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109CE9: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 38 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109D02: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 39 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109D1B: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 40 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109D4D: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 41 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109E99: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 42 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109EAF: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 43 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109EC5: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 44 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109F7B: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 45 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109F94: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 46 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109FAD: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 47 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109FC6: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 48 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109FF8: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 49 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A144: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 50 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A15A: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 51 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A170: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 52 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A226: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 53 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A23F: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 54 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A258: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 55 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A271: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 56 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A2A3: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 57 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A3EF: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 58 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A405: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 59 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A41B: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 60 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A4D1: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 61 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A4EA: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 62 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A503: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 63 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A51C: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 64 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A54E: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 65 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A69A: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 66 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A6B0: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 67 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A6C6: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 68 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A77C: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 69 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A795: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 70 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A7AE: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 71 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A7C7: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 72 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A7F9: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 73 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A92C: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 74 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A942: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 75 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A958: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 76 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AA0E: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 77 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10ABE5: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 78 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AC00: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 79 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AC2F: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 3 bytes in 1 blocks are definitely lost in loss record 80 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10ACF8: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 4 bytes in 1 blocks are definitely lost in loss record 81 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x1093FF: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 4 bytes in 1 blocks are definitely lost in loss record 82 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x1096BE: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 4 bytes in 1 blocks are definitely lost in loss record 83 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10998F: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 4 bytes in 1 blocks are definitely lost in loss record 84 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109C30: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 4 bytes in 1 blocks are definitely lost in loss record 85 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x109EDB: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 4 bytes in 1 blocks are definitely lost in loss record 86 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A186: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 4 bytes in 1 blocks are definitely lost in loss record 87 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A431: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 4 bytes in 1 blocks are definitely lost in loss record 88 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A6DC: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 4 bytes in 1 blocks are definitely lost in loss record 89 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10A96E: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 4 bytes in 2 blocks are definitely lost in loss record 90 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AA27: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 4 bytes in 2 blocks are definitely lost in loss record 91 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AA40: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 4 bytes in 2 blocks are definitely lost in loss record 92 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AA59: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 4 bytes in 2 blocks are definitely lost in loss record 93 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AA72: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 4 bytes in 2 blocks are definitely lost in loss record 94 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AA8B: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 5 bytes in 2 blocks are definitely lost in loss record 95 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AC18: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 10 bytes in 3 blocks are definitely lost in loss record 96 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AC49: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 12 bytes in 3 blocks are definitely lost in loss record 97 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AC99: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 13 bytes in 5 blocks are definitely lost in loss record 98 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AD1B: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 13 bytes in 5 blocks are definitely lost in loss record 99 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AD45: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 13 bytes in 5 blocks are definitely lost in loss record 100 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10ADCD: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 15 bytes in 6 blocks are definitely lost in loss record 101 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AD6F: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== 18 bytes in 7 blocks are definitely lost in loss record 102 of 102
+==18140==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18140==    by 0x10C1E6: ft_substr (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10AE2D: ft_digitconvert (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B986: ft_widthprecision_pars (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10BA7E: ft_parser (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10B3D1: ft_printf (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140==    by 0x10ADA0: main (in /mnt/c/Users/Utilisateur/Desktop/PRINTF_UNIT_JNM/ft_printf/tester/out/fake.out)
+==18140== 
+==18140== LEAK SUMMARY:
+==18140==    definitely lost: 386 bytes in 135 blocks
+==18140==    indirectly lost: 0 bytes in 0 blocks
+==18140==      possibly lost: 0 bytes in 0 blocks
+==18140==    still reachable: 0 bytes in 0 blocks
+==18140==         suppressed: 0 bytes in 0 blocks
+==18140== 
+==18140== ERROR SUMMARY: 102 errors from 102 contexts (suppressed: 0 from 0)

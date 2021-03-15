@@ -1,3 +1,0 @@
-has_been_run="y"
-flags="-Wall -Wextra -Werror -w"
-valgrind_full="valgrind  --show-leak-kinds=all --leak-check=full --track-origins=yes -s"

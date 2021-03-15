@@ -33,9 +33,9 @@ MEDIUM : Advanced test for your function, making use of INT_MAX, INT_MIN, Flags 
 
 ./medium.sh
 
-HARD : The Last Test, using STRONG Test made to push your function to its limit
+HARD : The Last Test, using STRONG Test made to push your function to its limit /!\ THIS TEST IS HERE TO TRY TO BREAK YOUR FUNCTION BUT THE REAL PRINTF STILL HANDLE IT /!\
 
-not done yet
+./hard.sh
 
 BONUS : Testing Bonus function with lots of differents test, ranging from easy to hard but with the bonus stuff !
 

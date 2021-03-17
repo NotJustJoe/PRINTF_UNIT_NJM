@@ -115,7 +115,7 @@ do
 	else
  		echo -ne "$test_numb:\033[0;31m x  \033[0m"
 		echo "▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER $test_numb : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄" >> diff.txt
-		to_grep=$(($test_numb + 48))
+		to_grep=$(($test_numb + 67))
 		func_tested=`sed -n ${to_grep}p mains/hard_main.c`
 		echo "Was tested :$func_tested" >> diff.txt
 		sed -n ${test_numb}p output_to_diff/fake_results.txt >> diff.txt

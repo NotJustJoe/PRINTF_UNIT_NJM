@@ -6,7 +6,7 @@
 /*   By: trofidal <trofidal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/13 11:29:27 by trofidal          #+#    #+#             */
-/*   Updated: 2021/03/17 19:08:20 by trofidal         ###   ########.fr       */
+/*   Updated: 2021/03/17 20:16:00 by trofidal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,6 +79,8 @@ int main()
 	function("%*c\n", 16, chard1);
 	function("%*cT\n", 0, chard2);
 	function("%*c\n", 10, chard3);
+	function("%*cT\n", 0, chard4);
+	function("%%%%%*cT\n", 0, chard5);
 	function("%*c\n", -12, chard5);
 	function("%c %*c\n", chard5, 12, chard4);
 	function("%95c\n", chard2); 
@@ -697,10 +699,10 @@ int main()
 	function("t%-0d%17% %*u\n", dhard1, -20, INT_MAX, dhard3, dhard3);
 	function("o%*X %1%%-20X\n", 0, dhard1, dhard3, dhard3, dhard3);
 	function("!%7%%10X, %%%*x\n", CHAR_MIN, 60, dhard2, dhard3, dhard3);
-	function("%%b%-12x, %-20i:D\n", INT_MAX, dhard3, dhard3, dhard3);
+	function("%%b%-12x, %-20i:ICI\n", INT_MAX, dhard3, dhard3, dhard3);
 	function("a%65d, %17%%X:O\n", dhard3, dhard4);
 	function("b%98i, %1%%-30xD:\n", dhard4, CHAR_MIN, CHAR_MIN, CHAR_MIN);
-	function("a%31X%19%, %12i:>\n", INT_MIN, 20, dhard5, dhard5);
+	function("a%31X%19%, %12%:>\n", INT_MIN, 20, dhard5, dhard5);
 	function("%X %%%%%%%45%%%%%%%% %*x\n", dhard2, 12, dhard4);
 	function("%16X\n", dhard2);
 	function("%7% %32u %42%\n", INT_MIN);
@@ -715,7 +717,7 @@ int main()
 	function("%%b%sdfg3.662--0-ds-fgdf.0.0---ds%-12x, %-20i:D\n", shard2, INT_MAX, dhard3);
 	function("a%65d, %1%sdfg3.662--0-ds-fgdf.0.0---ds7%%X:O\n", dhard3, dhard4);
 	function("b%98i%sdfg3.662--0-ds-fgdf.0.0---ds, %1%%-30xD:\n", dhard4, shard5, CHAR_MIN);
-	function("a%31X%%sdfg3.662--0-ds-fgdf.0.0---ds19%, %12i:>\n", INT_MIN, shard1, 20, dhard5, dhard5);
+	function("a%31X%%sdfg3.662--0-ds-fgdf.0.0---ds19%, %12%:>\n", INT_MIN, shard1, 20, dhard5, dhard5, dhard5, dhard5);
 	function("%X %%%%%%%45%sdfg3.662--0-ds-fgdf.0.0---ds%%%%%%%% %*x\n", dhard2, 12, dhard4);
 	function("89417891\n");						//  _   __  __  __ _______   __
 	function("961491\n");						// (_) / / |  \/  |_   _\ \ / /
@@ -777,16 +779,16 @@ int main()
 	function("%80.333d %0----1.5d %6p %51s753 %x, %245%245%-10.200s\n", -847365164, dhard5, phard3, shard4, xhard5, shard4);
 	function("qqq%112% qqqq%%%%10%00.1000d753 %6psdfs %51s%%fsdf %6x, %245%245%s\n", dhard5, phard3, shard4, xhard5, shard2);
 	function("qqq%80.333d qqqq%14d753 %6psdfs %51s%%fsdf %6x, %245%245%s%16s\n",  -847365164, dhard5, phard3, shard4, xhard5, shard2, shard3);
-	function("%##X %-0-1.5s 35%35% %-1.0d %08.4u %0p", -1,"Hello there", INT_MAX, LONG_MIN ,NULL, 0);
-	function(" --0%0.0i0 0%0.10i*0-- ", INT_MIN, 0, 21, 1,850);
-	function("++X%-152s %0.0s 0%0.p10i0-- %3p", "Lorem ipsum ", 0, 21, 1,850,50);
-	function("%0.0s%-0.-0s%5-.5s%0.0d%-0.-0d%####x%.p", "", "Hello there", NULL,0,-0,LONG_MIN, NULL);
-	function(".%c, %x, %-0.0p %%%%%.%%%....%.*%**%-%-%-%-----%%%", 0,0, 0,0,0);
-	function("*.*%8.-0-5d*%-7x*%...i*%.2.u#x##X##X#", INT_MIN, LONG_MIN, INT_MIN, LONG_MIN, NULL);
-	function(" --0*%-0*.-50d*0 %%.%%.%%.%%*.*%%.*.%%% 0*%-0*.-10d*0-- %x\0\0\0", -21, CHAR_MAX, 21, CHAR_MIN, INT_MAX);
-	function("%*.*d %s \t \n \r \v \f \r",-1,-0, UINT_MAX + 1, "");
-	function("1c%2c%3c%4c%5c%6c%7c%8%9%6%3%6%%9c8%6c6%c%c%c",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
-	function("%%%-0s%%%-1.-1s%%.1s%%%.11S%%%.-8s%%%%...S%%S.S.S%.%.S.%S%S% ",0,0,0,0,0,0,0,0,0,0);
+	function("%##X %-0-1.5s 35%35% %-1.0d %08.4u %0p\n", -1,"Hello there", INT_MAX, LONG_MIN ,NULL, 0);
+	function(" --0%0.0i0 0%0.10i*0-- \n", INT_MIN, 0, 21, 1,850);
+	function("++X%-152s %0.0s 0%0.p10i0-- %3p\n", "Lorem ipsum ", 0, 21, 1,850,50);
+	function("%0.0s%-0.-0s%5-.5s%0.12d%-0.-0d%####x%.p\n", "e", 0, 13, 29, 0);
+	function(".%c, %x, %-0.0p %%%%%.%%%....%.*%**%-%-%-%-----%%%\n", 0,0, 0,0,0);
+	function("*.*%8.-0-5d*%-7x*%...i*%.2.u#x##X##X#\n", INT_MIN, LONG_MIN, INT_MIN, LONG_MIN, NULL);
+	function(" --0*%-0*.-50d*0 %%.%%.%%.%%*.*%%.*.%%% 0*%-0*.-10d*0-- %x\0\0\0\n", -21, CHAR_MAX, 21, CHAR_MIN, INT_MAX);
+	function("%*.*d %s \t \r \v \f \r \n",-1,-0, UINT_MAX + 1, "");
+	function("1c%2c%3c%4c%5c%6c%7c%8%9%6%3%6%%9c8%6c6%c%c%c\n",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+	function("%%%-0s%%%-1.-1s%%.1s%%%.11S%%%.-8s%%%%...S%%S.S.S%.%.S.%S%S% \n",0,0,0,0,0,0,0,0,0,0);
 }
 /*
 For any question, contact NotJustJoe#3756 on Discord or see GitHubs Links below ↓

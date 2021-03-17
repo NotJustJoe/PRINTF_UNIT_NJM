@@ -95,7 +95,7 @@ echo -e "${SPACER_NAME_TOP}\n${SPACER_C}\n${SPACER_NAME_BOT}${NC}"
 echo
 test_numb=1
 note=0
-tonext_spacer=60
+tonext_spacer=75
 sed -n ${test_numb}p output_to_diff/real_results.txt >> printf.txt
 if [ -s output_to_diff/fake_results.txt ] ; then
 while [ -s printf.txt ]
@@ -115,6 +115,7 @@ do
 	else
  		echo -ne "$test_numb:\033[0;31m x  \033[0m"
 		echo "▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER $test_numb : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄" >> diff.txt
+		echo "Was tested : " >> diff.txt
 		sed -n ${test_numb}p output_to_diff/fake_results.txt >> diff.txt
 		echo >> diff.txt
 		echo "$DIFF" >> diff.txt

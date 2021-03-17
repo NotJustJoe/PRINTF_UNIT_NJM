@@ -67,7 +67,7 @@ gcc -Wall -Werror -Wextra -w ./mains/hard_main.c -D function="printf" -o ./out/r
 ./out/real.out >> output_to_diff/real_results.txt
 make -C ../
 cp ../libftprintf.a ./srcs/
-gcc -Wall -Werror -Wextra -w ./mains/hard_main.c ./srcs/libftprintf.a -D function="ft_printf" -o ./out/fake.out
+gcc -Wall -Werror -Wextra -w ./mains/hard_main.c ./srcs/libftprintf.a -D function="printf" -o ./out/fake.out
 ./out/fake.out >> output_to_diff/fake_results.txt
 rm -rf results/results.log results/valgrind.log
 ${gcc_valgrind} --log-fd=9 9>> ./results/valgrind.log ./out/fake.out
@@ -122,7 +122,7 @@ do
 		echo >> diff.txt		
 	#ALLIGNEMENT, AU BOUT DE 10 TESTS \n
 	fi
-	let "j = $test_numb % 10"
+	let "j = $test_numb % 15"
 	if [ $j -eq 0 ] ; then #Si J % 10 = 0 on \n
 		echo
 	fi #Si y % tonext spacer = 0 on met le prochain spacer
